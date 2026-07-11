@@ -1,20 +1,23 @@
-# Python
+# Python cache
 __pycache__/
-*.pyc
+*.py[cod]
 
 # Virtual Environment
 venv/
 
-# Model Weights
-*.pth
-*.pt
-
-# Output files
-outputs/
+# Model Checkpoints
 checkpoints/
+*.pth
+
+# Outputs
+outputs/
 
 # VS Code
 .vscode/
 
-# macOS
+# Jupyter
+.ipynb_checkpoints/
+
+# Operating System
 .DS_Store
+Thumbs.db
