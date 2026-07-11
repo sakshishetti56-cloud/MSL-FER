@@ -15,15 +15,14 @@ test_transform = transforms.Compose([
     transforms.ToTensor(),
 ])
 
-# Load training dataset
+# Load datasets
 train_dataset = datasets.ImageFolder(
-    root="Dataset/train",
+    root="dataset/train",
     transform=train_transform
 )
 
-# Load testing dataset
 test_dataset = datasets.ImageFolder(
-    root="Dataset/test",
+    root="dataset/test",
     transform=test_transform
 )
 
