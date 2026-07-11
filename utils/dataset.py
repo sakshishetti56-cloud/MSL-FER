@@ -39,6 +39,4 @@ test_loader = DataLoader(
     shuffle=False
 )
 
-print("Classes:", train_dataset.classes)
-print("Training Images:", len(train_dataset))
-print("Testing Images:", len(test_dataset))
+classes = train_dataset.classes
